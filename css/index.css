@@ -1,89 +1,169 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap");
 
 body {
-    font-family: "Noto Sans KR", sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
+/* 헤더 */
 .header {
-    border-top: 4px solid #084ba0;
-    border-bottom: 1px solid #666;
+  border-top: 4px solid #084ba0;
+  border-bottom: 1px solid #666;
 }
 
 .inner {
-    width: 1200px;
-    margin: auto;
+  width: 1200px;
+  margin: auto;
 }
 
 .header-top .header-top-list {
-    float: right;
-    margin-top: 5px;
-    padding: 0 15px;
+  float: right;
+  margin-top: 5px;
+  padding: 0 15px;
 }
 
 .header-top .header-top-list li {
-    float: left;
-    font-size: 12px;
-    color: #e28072;
-    border-left: 1px solid #a4a4a4;
-    padding-left: 9.5px;
-    margin-left: 9.5px;
+  float: left;
+  font-size: 12px;
+  color: #e28072;
+  border-left: 1px solid #a4a4a4;
+  padding-left: 9.5px;
+  margin-left: 9.5px;
 }
 .header-top .header-top-list .startup-plus {
-    border-left: none;
+  border-left: none;
 }
 
 .header-top .header-top-list .startup-plus b {
-    color: #0169b8;
+  color: #0169b8;
 }
 
 .header-top .header-top-list .startup-plus span {
-    color: #52bf4a;
+  color: #52bf4a;
 }
 
 .header-bottom .logo a {
-    background: url(../hubkitchen-img/top-iogo.jpeg) no-repeat center center /
-        contain;
-    float: left;
-    width: 153.75px;
-    height: 50px;
-    font-size: 0;
-    text-indent: -9999px;
+  background: url(../hubkitchen-img/top-iogo.jpeg) no-repeat center center /
+    contain;
+  float: left;
+  width: 153.75px;
+  height: 50px;
+  font-size: 0;
+  text-indent: -9999px;
 }
 
 .header-bottom .gnb {
-    float: right;
-    margin-top: 31px;
+  float: right;
+  margin-top: 31px;
 }
 
 .header-bottom .gnb > li {
-    float: left;
-    font-size: 20px;
-    font-weight: 500;
+  float: left;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .header-bottom .gnb .dep1 > a {
-    display: block;
-    padding: 15px 25px 20px 10px;
+  display: block;
+  padding: 15px 25px 20px 10px;
+  position: relative;
+}
+
+.header-bottom .gnb .dep1 > a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+  width: 70px;
+  height: 3px;
+  background-color: #000;
+  display: none;
+}
+
+.header-bottom .gnb .dep1:hover > a::after {
+  display: block;
 }
 
 .header-bottom .gnb:hover .dep2 {
-    display: block;
+  display: block;
 }
 
 .header-bottom .gnb .dep2 {
-    margin-top: 30px;
-    background-color: #fff;
-    display: none;
+  margin-top: 30px;
+  background-color: #fff;
+  display: none;
 }
 
 .header-bottom .gnb .dep2 li {
-    font-size: 15px;
-    padding: 7px 10px;
-    max-width: 90px;
+  font-size: 15px;
+  padding: 7px 10px;
+  max-width: 90px;
 }
 .header-bottom .gnb .dep2 li:hover {
-    background-color: #c3deff;
-    transition: background 0.5s;
+  background-color: #c3deff;
+  transition: background 0.5s;
+}
+/* 예약하기 : white-space: nowrap; */
+
+/* content */
+
+.content {
+  padding: 20px 15px 30px;
+}
+.mainbanner img {
+  width: 100%;
+  padding-bottom: 30px;
 }
 
-/* 예약하기 : white-space: nowrap; */
+.content-mid a {
+  float: left;
+}
+
+.tab-area {
+  float: left;
+  height: 245px;
+  width: 50%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.tab-area .tab-nav a {
+  display: block;
+  height: 19px;
+  padding: 10px;
+}
+
+.tab-content {
+  width: 100%;
+  height: calc(100% - 50px); /* 값 수정해야됨 */
+}
+
+.tab-area .tab-content .date {
+  width: 85px;
+}
+
+.content-bottom div {
+  padding-top: 30px;
+  width: 50%;
+  float: left;
+}
+
+.content-bottom img {
+  width: 100%;
+}
+
+.content-bottom p {
+  text-align: center;
+  padding: 35px 0;
+}
+
+/* 푸터 */
+.footer {
+  background-color: #999595;
+  height: 166px;
+  color: #fff;
+}
+
+.footer img {
+  float: left;
+}
