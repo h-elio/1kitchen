@@ -1,177 +1,450 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>서울창업허브 키친 인큐베이터</title>
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/index.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="header">
-        <div class="inner">
-          <div class="header-top cf">
-            <ul class="header-top-list">
-              <li class="startup-plus">
-                <a href="#"
-                  ><b>서울스타트업플러스 <span>플랫폼</span></b></a
-                >
-              </li>
-              <!-- span으로 글자색 처리 -->
-              <li><a href="#">로그인</a></li>
-              <li><a href="#">회원가입</a></li>
-            </ul>
-          </div>
-          <div class="header-bottom">
-            <h1 class="logo"><a href="#">KITCHEN INCUBATOR</a></h1>
-            <ul class="gnb cf">
-              <li class="dep1">
-                <a href="#">예약하기</a>
-                <ul class="dep2">
-                  <li><a href="#">공유주방 예약하기</a></li>
-                </ul>
-              </li>
-              <li class="dep1">
-                <a href="#">인스타그램</a>
-                <ul class="dep2">
-                  <li><a href="#">인스타그램</a></li>
-                </ul>
-              </li>
-              <li class="dep1">
-                <a href="#">창업서비스</a>
-                <ul class="dep2">
-                  <li><a href="#">액셀러레이팅</a></li>
-                  <li><a href="#">교육</a></li>
-                  <li><a href="#">입주</a></li>
-                  <li><a href="#">멘토링·컨설팅</a></li>
-                  <li><a href="#">장소대관</a></li>
-                </ul>
-              </li>
-              <li class="dep1">
-                <a href="#">창업정보</a>
-                <ul class="dep2">
-                  <li><a href="#">뉴스</a></li>
-                  <li><a href="#">홍보</a></li>
-                  <li><a href="#">자료 공간</a></li>
-                  <li>
-                    <a href="#">키친인큐베이터 인스타그램</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="dep1">
-                <a href="#">이용알림</a>
-                <ul class="dep2">
-                  <li><a href="#">공지사항</a></li>
-                  <li><a href="#">FAQ</a></li>
-                  <li><a href="#">Q&A</a></li>
-                </ul>
-              </li>
-              <li class="dep1">
-                <a href="#">사진첩</a>
-                <ul class="dep2">
-                  <li><a href="#">사진첩</a></li>
-                </ul>
-              </li>
-              <li class="dep1">
-                <a href="#">센터소개</a>
-                <ul class="dep2">
-                  <li><a href="#">센터소개</a></li>
-                  <li><a href="#">찾아오시는길</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- e:inner(header) -->
-      </header>
-      <section class="content">
-        <div class="inner">
-          <div class="mainbanner">
-            <img src="hubkitchen-img/main-banner.jpg" alt="" />
-          </div>
-          <div class="content-mid cf">
-            <a href="#"
-              ><img src="hubkitchen-img/middle-banner.jpg" alt="" />
-            </a>
-            <div class="tab-area">
-              <ul class="tab-nav">
-                <li><a href="#">공지사항</a></li>
-                <li><a href="#">뉴스</a></li>
-                <li><a href="#">홍보</a></li>
-              </ul>
-              <table class="tab-content">
-                <colgroup>
-                  <col class="article-title" />
-                  <col class="date" />
-                </colgroup>
-                <tr>
-                  <td><a href="#">[키친인큐베이터] 메뉴공지 5월 2째주</a></td>
-                  <td>2022-05-06</td>
-                </tr>
-                <tr>
-                  <td><a href="#">[키친인큐베이터] 메뉴공지 5월 1째주</a></td>
-                  <td>2022-05-02</td>
-                </tr>
-                <tr>
-                  <td><a href="#">[키친인큐베이터] 메뉴공지 4월 5째주</a></td>
-                  <td>2022-04-22</td>
-                </tr>
-                <tr>
-                  <td><a href="#">[키친인큐베이터] 메뉴공지 4월 5째주</a></td>
-                  <td>2022-04-22</td>
-                </tr>
-                <tr>
-                  <td><a href="#">[키친인큐베이터] 메뉴공지 4월 4째주</a></td>
-                  <td>2022-04-15</td>
-                </tr>
-                <tr>
-                  <td><a href="#">[키친인큐베이터] 메뉴공지 4월 3째주</a></td>
-                  <td>2022-04-11</td>
-                </tr>
-                <tr>
-                  <td><a href="#">[키친인큐베이터] 메뉴공지 4월 2째주</a></td>
-                  <td>2022-04-04</td>
-                </tr>
-              </table>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>서울창업허브 키친 인큐베이터</title>
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/flex.css" />
+        <script
+            src="https://kit.fontawesome.com/1c674ecc00.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="to-top">
+                <a href="#">
+                    <i class="fa fa-angle-up"></i>
+                    <span>TOP</span>
+                </a>
             </div>
-            <!-- e:tab-area -->
-          </div>
-          <!-- e:content-mid -->
-          <div class="content-bottom cf">
-            <div class="blog">
-              <a href="#">
-                <img src="hubkitchen-img/bottom-banner-1.jpg" alt="" />
-              </a>
-              <p>[키친인큐베이터 블로그]</p>
-            </div>
-            <div class="homepage">
-              <a href="#">
-                <img src="hubkitchen-img/bottom-banner-2.jpeg" alt="" />
-              </a>
-              <p>[서울창업허브 홈페이지]</p>
-            </div>
-          </div>
+            <header class="header">
+                <div class="inner">
+                    <div class="header-top cf">
+                        <ul class="header-top-list">
+                            <li class="startup-plus">
+                                <a href="#"
+                                    ><b
+                                        >서울스타트업플러스
+                                        <span>플랫폼</span></b
+                                    ></a
+                                >
+                            </li>
+                            <li><a href="#">로그인</a></li>
+                            <li><a href="#">회원가입</a></li>
+                        </ul>
+                    </div>
+                    <div class="header-bottom">
+                        <h1 class="logo"><a href="#">KITCHEN INCUBATOR</a></h1>
+                        <div class="navi">
+                            <button class="all-menu">
+                                전체메뉴
+                                <img
+                                    src="./hubkitchen-img/btn_gnb_menu.png"
+                                    alt=""
+                                />
+                            </button>
+                            <ul class="gnb cf">
+                                <div class="for-mobile">
+                                    <a href="#">
+                                        <img
+                                            src="./hubkitchen-img/ico_gnb_log.png"
+                                            alt=""
+                                        />
+                                        홈</a
+                                    >
+                                    <button class="close-btn"></button>
+                                </div>
+                                <li class="dep1">
+                                    <a href="#">예약하기</a>
+                                    <ul class="dep2">
+                                        <li class="booking">
+                                            <a href="#">공유주방 예약하기</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dep1">
+                                    <a href="#">인스타그램</a>
+                                    <ul class="dep2">
+                                        <li><a href="#">인스타그램</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dep1">
+                                    <a href="#">창업서비스</a>
+                                    <ul class="dep2">
+                                        <li><a href="#">액셀러레이팅</a></li>
+                                        <li><a href="#">교육</a></li>
+                                        <li><a href="#">입주</a></li>
+                                        <li><a href="#">멘토링·컨설팅</a></li>
+                                        <li><a href="#">장소대관</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dep1">
+                                    <a href="#">창업정보</a>
+                                    <ul class="dep2">
+                                        <li><a href="#">뉴스</a></li>
+                                        <li><a href="#">홍보</a></li>
+                                        <li><a href="#">자료 공간</a></li>
+                                        <li>
+                                            <a href="#"
+                                                >키친인큐베이터 인스타그램</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dep1">
+                                    <a href="#">이용알림</a>
+                                    <ul class="dep2">
+                                        <li><a href="#">공지사항</a></li>
+                                        <li><a href="#">FAQ</a></li>
+                                        <li><a href="#">Q&A</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dep1">
+                                    <a href="#">사진첩</a>
+                                    <ul class="dep2">
+                                        <li><a href="#">사진첩</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dep1">
+                                    <a href="#">센터소개</a>
+                                    <ul class="dep2">
+                                        <li><a href="#">센터소개</a></li>
+                                        <li><a href="#">찾아오시는길</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="gnb-bg"></div>
+                </div>
+                <!-- e:inner(header) -->
+            </header>
+            <section class="content">
+                <div class="inner">
+                    <div class="mainbanner">
+                        <img src="hubkitchen-img/main-banner.jpg" alt="" />
+                    </div>
+                    <div class="content-mid cf">
+                        <a href="#"
+                            ><img
+                                src="hubkitchen-img/middle-banner.jpg"
+                                alt=""
+                            />
+                        </a>
+                        <div class="tab-area">
+                            <ul class="tab-nav">
+                                <li data-index="0" class="tab-on">
+                                    <a href="#">공지사항</a>
+                                </li>
+                                <li data-index="1"><a href="#">뉴스</a></li>
+                                <li data-index="2"><a href="#">홍보</a></li>
+                            </ul>
+                            <div class="tab-contents">
+                                <table class="tab-content notice">
+                                    <colgroup>
+                                        <col class="article-title" />
+                                        <col class="date" />
+                                    </colgroup>
+                                    <tr>
+                                        <td>
+                                            <a href="#"
+                                                >[키친인큐베이터] 메뉴공지 5월
+                                                2째주</a
+                                            >
+                                        </td>
+                                        <td>2022-05-06</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#"
+                                                >[키친인큐베이터] 메뉴공지 5월
+                                                1째주</a
+                                            >
+                                        </td>
+                                        <td>2022-05-02</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#"
+                                                >[키친인큐베이터] 메뉴공지 4월
+                                                5째주</a
+                                            >
+                                        </td>
+                                        <td>2022-04-22</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#"
+                                                >[키친인큐베이터] 메뉴공지 4월
+                                                5째주</a
+                                            >
+                                        </td>
+                                        <td>2022-04-22</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#"
+                                                >[키친인큐베이터] 메뉴공지 4월
+                                                4째주</a
+                                            >
+                                        </td>
+                                        <td>2022-04-15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#"
+                                                >[키친인큐베이터] 메뉴공지 4월
+                                                3째주</a
+                                            >
+                                        </td>
+                                        <td>2022-04-11</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#"
+                                                >[키친인큐베이터] 메뉴공지 4월
+                                                2째주</a
+                                            >
+                                        </td>
+                                        <td>2022-04-04</td>
+                                    </tr>
+                                </table>
+                                <table class="tab-content news">
+                                    <colgroup>
+                                        <col class="article-title" />
+                                        <col class="date" />
+                                    </colgroup>
+                                    <tr>
+                                        <td>
+                                            <a href="#"
+                                                >[키친인큐베이터] 푸드메이커 9기
+                                                성장프로그램 종료</a
+                                            >
+                                        </td>
+                                        <td>2021-10-25</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#"
+                                                >[푸드메이커] 해피스마일프레시,
+                                                해산물 그로서리 생선씨 오픈</a
+                                            >
+                                        </td>
+                                        <td>2021-03-08</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#"
+                                                >[푸드메이커 NEWS] '프란로칼',
+                                                '웰러' 상생상회 입점!</a
+                                            >
+                                        </td>
+                                        <td>2021-03-01</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#"
+                                                >[데모데이] 2021 맛있는 온라인
+                                                데모데이 X 라이브쇼핑 VOG..</a
+                                            >
+                                        </td>
+                                        <td>2021-03-01</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#"
+                                                >[푸드메이커NEWS] 제조
+                                                푸드메이커, 프란로칼 이야기</a
+                                            >
+                                        </td>
+                                        <td>2021-02-02</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href=""></a></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href=""></a></td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                                <table class="tab-content promote">
+                                    <colgroup>
+                                        <col class="article-title" />
+                                        <col class="date" />
+                                    </colgroup>
+                                    <tr>
+                                        <td>
+                                            <a href="#"
+                                                >[온라인 설명회] 키친인큐베이터
+                                                제조 주방 랜선 투어!</a
+                                            >
+                                        </td>
+                                        <td>2022-05-04</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#"
+                                                >[푸드메이커 이야기 ep1.] 금성관
+                                                나주곰탕</a
+                                            >
+                                        </td>
+                                        <td>2022-01-12</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#"
+                                                >[크라우드펀딩] 성공적! 푸딘,
+                                                잼오르, 시우로운 펀딩종료!</a
+                                            >
+                                        </td>
+                                        <td>2021-09-24</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#"
+                                                >[공유 8기] 달콤함에 취하는
+                                                시간, 칵테일&디저트 '이브흐'</a
+                                            >
+                                        </td>
+                                        <td>2021-09-24</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#"
+                                                >[크라우드펀딩] 왕비집 / <양념
+                                                소왕갈비 & 한돈 양념구이 ..</a
+                                            >
+                                        </td>
+                                        <td>2021-06-04</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#"
+                                                >[크라우드펀딩] 어코프 / 요즘
+                                                핫한 아.샷.추 티노 와디즈
+                                                펀딩</a
+                                            >
+                                        </td>
+                                        <td>2021-06-04</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#"
+                                                >[크라우드펀딩] 꽃담청
+                                                허니과일청 와디즈 펀딩 오픈</a
+                                            >
+                                        </td>
+                                        <td>2021-06-02</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- e:tab-area -->
+                    </div>
+                    <!-- e:content-mid -->
+                    <div class="content-bottom cf">
+                        <div class="blog">
+                            <a href="#">
+                                <img
+                                    src="hubkitchen-img/bottom-banner-1.jpg"
+                                    alt=""
+                                />
+                            </a>
+                            <p>[키친인큐베이터 블로그]</p>
+                        </div>
+                        <div class="homepage">
+                            <a href="#">
+                                <img
+                                    src="hubkitchen-img/bottom-banner-2.jpeg"
+                                    alt=""
+                                />
+                            </a>
+                            <p>[서울창업허브 홈페이지]</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- e:inner(content) -->
+            </section>
+            <footer class="footer">
+                <div class="inner">
+                    <p class="img-box">
+                        <img src="hubkitchen-img/bottom-logo.png" alt="" />
+                    </p>
+                    <div class="footer-content">
+                        <ul>
+                            <li><a href="#">개인정보취급방침</a></li>
+                            <li><a href="#">이용약관</a></li>
+                        </ul>
+                        <p>대표번호: 02) 2115-2000</p>
+                        <p>서울특별시 마포구 백범로31길 21 서울창업허브</p>
+                        <p>© 2022 Seoul StartupHub. All right reserved.</p>
+                    </div>
+                </div>
+            </footer>
         </div>
-        <!-- e:inner(content) -->
-      </section>
-      <footer class="footer">
-        <div class="inner">
-          <p class="img-box">
-            <img src="hubkitchen-img/bottom-logo.png" alt="" />
-          </p>
-          <div class="footer-content">
-            <ul>
-              <li><a href="#">개인정보취급방침</a></li>
-              <li><a href="#">이용약관</a></li>
-            </ul>
-            <p>대표번호: 02) 2115-2000</p>
-            <p>서울특별시 마포구 백범로31길 21 서울창업허브</p>
-            <p>© 2022 Seoul StartupHub. All right reserved.</p>
-          </div>
-        </div>
-      </footer>
-    </div>
-  </body>
+        <script>
+            // 모바일용 메뉴
+            const allMenu = document.querySelector(".all-menu");
+            const gnb = document.querySelector(".gnb");
+            const closeBtn = document.querySelector(".close-btn");
+            const menuList = document.querySelectorAll(".dep1");
+            const gnbBg = document.querySelector(".gnb-bg");
+
+            // 메뉴 open & close
+            allMenu.addEventListener("click", () => {
+                gnb.classList.add("mobile");
+                gnbBg.style.display = "block";
+            });
+            closeBtn.addEventListener("click", () => {
+                gnb.classList.remove("mobile");
+                gnbBg.style.display = "none";
+            });
+
+            // 메뉴 tab
+            gnb.addEventListener("click", (e) => {
+                const selected = e.target;
+
+                let isMenuOpen = selected.classList.contains("menu-open");
+                if (isMenuOpen) {
+                    selected.classList.remove("menu-open");
+                } else {
+                    menuList.forEach((li) => {
+                        li.classList.remove("menu-open");
+                    });
+                    selected.classList.add("menu-open");
+                }
+            });
+            // 모바일용 끝
+
+            // 게시판 탭
+            const tabList = document.querySelector(".tab-nav");
+
+            tabList.addEventListener("click", (e) => {
+                const selected = e.target;
+                let index = selected.dataset.index;
+                const tabContent = document.querySelectorAll(".tab-content");
+                tabContent.forEach((content, i) => {
+                    content.style.opacity = "0";
+                    tabList.children[i].className = "";
+                });
+                tabContent[index].style.opacity = "1";
+                selected.className = "tab-on";
+            });
+
+            // top 버튼
+            const toTopBtn = document.querySelector(".to-top");
+
+            document.addEventListener("scroll", () => {
+                let nowScroll = document.documentElement.scrollTop;
+                if (nowScroll > 180) toTopBtn.style.opacity = "1";
+                else {
+                    toTopBtn.style.opacity = "0";
+                }
+            });
+        </script>
+    </body>
 </html>
