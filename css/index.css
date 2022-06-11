@@ -69,8 +69,18 @@ body {
     transition: height 0.5s;
 }
 
+<<<<<<< HEAD
 .header-bottom .gnb {
     float: left;
+=======
+.header-bottom .navi {
+  float: right;
+  margin-top: 31px;
+>>>>>>> f900f6ff116063a0aec1a823322995390b5b16cd
+}
+
+.header-bottom .gnb {
+  float: left;
 }
 
 .header-bottom .gnb > li {
@@ -98,12 +108,39 @@ body {
     right: -15px;
     position: absolute;
 }
+.header-bottom .navi .all-menu {
+  font-size: 15px;
+  padding: 10px;
+  margin: 9px 20px 0 25px;
+  position: relative;
+  top: -5px;
+  color: #666;
+}
+
+.header-bottom .navi .all-menu::after {
+  /* vertical-align: middle; */
+  content: "";
+  width: 22.5px;
+  height: 20px;
+  background-color: #000;
+  top: 10px;
+  background: url("../hubkitchen-img/btn_gnb_menu.png");
+  right: -15px;
+  position: absolute;
+}
 
 .header-bottom .gnb .dep1 > a {
+<<<<<<< HEAD
     display: block;
     padding: 15px 25px 20px 10px;
     position: relative;
     color: #414042;
+=======
+  display: block;
+  padding: 15px 25px 20px 10px;
+  position: relative;
+  color: #414042;
+>>>>>>> f900f6ff116063a0aec1a823322995390b5b16cd
 }
 
 .header-bottom .gnb .dep1 > a::after {
@@ -119,6 +156,7 @@ body {
 }
 
 .header-bottom .gnb .dep1:hover > a::after {
+<<<<<<< HEAD
     display: block;
 }
 
@@ -126,6 +164,20 @@ body {
     margin-top: 30px;
     color: #666;
     background-color: #fff;
+=======
+  display: block;
+}
+
+.header-bottom .navi:hover .dep2 {
+  display: block;
+}
+
+.header-bottom .gnb .dep2 {
+  margin-top: 30px;
+  color: #666;
+  background-color: #fff;
+  display: none;
+>>>>>>> f900f6ff116063a0aec1a823322995390b5b16cd
 }
 
 .header-bottom .gnb .dep2 li {
@@ -143,6 +195,22 @@ body {
     z-index: 100;
     position: relative;
 }
+<<<<<<< HEAD
+=======
+
+.booking {
+  white-space: nowrap;
+  z-index: 100;
+  position: relative;
+}
+
+.booking:hover {
+  background-color: #c3deff;
+  transition: background 0.5s;
+  z-index: 1000;
+  position: relative;
+}
+>>>>>>> f900f6ff116063a0aec1a823322995390b5b16cd
 
 /* content */
 
@@ -160,6 +228,7 @@ body {
 }
 
 .tab-area {
+<<<<<<< HEAD
     float: left;
     height: 245px;
     width: 50%;
@@ -206,6 +275,48 @@ body {
 
 .tab-area .tab-content table.notice {
     z-index: 1;
+=======
+  float: left;
+  height: 245px;
+  width: 50%;
+}
+
+.tab-area .tab-nav a {
+  color: #353535;
+  font-weight: 300;
+  background-color: #f6f7f8;
+  display: block;
+  margin-right: 5px;
+  margin-bottom: -1px;
+  height: 19px;
+  padding: 10px;
+  font-size: 13px;
+  border: 1px solid #eee;
+  border-bottom: none;
+  z-index: 1000;
+  position: relative;
+}
+
+.tab-area .tab-nav li:first-child a {
+  background-color: #fff;
+  color: #f5a623;
+}
+
+.tab-area .tab-content {
+  float: left;
+  font-size: 12px;
+  color: #333;
+  font-weight: 300;
+  width: 100%;
+  height: 200px;
+>>>>>>> f900f6ff116063a0aec1a823322995390b5b16cd
+}
+
+.tab-area .tab-content table {
+  background-color: #fff;
+  border: 1px solid #eee;
+  width: 100%;
+  height: 100%;
 }
 
 .tab-area .tab-content tr {
@@ -243,22 +354,40 @@ body {
 }
 
 .content-bottom p {
+<<<<<<< HEAD
     text-align: center;
     padding: 35px 0;
     font-weight: 700;
     font-size: 14px;
     color: #353535;
     font-family: gulim;
+=======
+  text-align: center;
+  padding: 35px 0;
+  font-weight: 700;
+  font-size: 14px;
+  color: #353535;
+  font-family: gulim;
+>>>>>>> f900f6ff116063a0aec1a823322995390b5b16cd
 }
 
 /* 푸터 */
 .footer {
+<<<<<<< HEAD
     background-color: #999595;
     height: 166px;
     font-weight: 300;
     color: #fff;
     padding: 25px 0 30px 110px;
     box-sizing: border-box;
+=======
+  background-color: #999595;
+  height: 166px;
+  font-weight: 300;
+  color: #fff;
+  padding: 25px 0 30px 110px;
+  box-sizing: border-box;
+>>>>>>> f900f6ff116063a0aec1a823322995390b5b16cd
 }
 
 .footer .img-box {
@@ -284,6 +413,7 @@ body {
 }
 
 .footer .footer-content li:first-child::after {
+<<<<<<< HEAD
     content: "";
     display: block;
     position: absolute;
@@ -292,6 +422,16 @@ body {
     background-color: #fff;
     top: 0;
     right: -17px;
+=======
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 14px;
+  background-color: #fff;
+  top: 0;
+  right: -17px;
+>>>>>>> f900f6ff116063a0aec1a823322995390b5b16cd
 }
 
 .footer-content p {
