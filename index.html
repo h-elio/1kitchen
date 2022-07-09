@@ -447,6 +447,13 @@
                     toTopBtn.style.opacity = "0";
                 }
             });
+            toTopBtn.addEventListener("click", (e) => {
+                e.preventDefault();
+                let nowScroll = window.scroll({
+                    top: 0,
+                    behavior: "smooth",
+                });
+            });
         </script>
     </body>
 </html>
